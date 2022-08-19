@@ -1,0 +1,122 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+html {
+  background-color: #f1efdc;
+  min-height: 1000px;
+  font-family: "helvetica neue";
+}
+
+h1 {
+  color: #E9DAC1;
+  padding: 10px;
+  text-align: center;
+  background-color: #54babb;
+  margin: auto;
+  font-family: "Fjalla One", sans-serif;
+}
+
+.box {
+  max-width: 400px;
+  margin: 50px auto;
+  background: silver;
+  border-radius: 5px;
+  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+}
+
+#heading {
+  background-color: #a683e3;
+  text-align: center;
+}
+
+.item {
+  min-height: 70px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid black;
+  background-color: silver;
+  font-family: "Fjalla One", sans-serif;
+}
+
+.item:last-child {
+  border-bottom: 0;
+}
+
+input:checked + p {
+  text-decoration: line-through;
+  text-decoration-color: #a683e3;
+}
+
+input[type="checkbox"] {
+  margin: 20px;
+}
+
+p {
+  margin: 0;
+  padding: 20px;
+  font-size: 20px;
+  font-weight: 200;
+  color: #00204a;
+}
+
+form {
+  text-align: center;
+  margin-left: 20px;
+}
+
+button {
+  min-height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  border-color: transparent;
+  background-color: #e6d2aa;
+  color: #fff;
+  font-size: 30px;
+  padding-bottom: 6px;
+  border-width: 0;
+}
+
+input[type="text"] {
+  text-align: center;
+  height: 60px;
+  top: 10px;
+  background: aliceblue;
+  border: #e4dcdc;
+  border-style: solid;
+  border-radius: 5px;
+
+  font-size: 20px;
+  font-weight: 200;
+  width: 350px;
+}
+
+input[type="text"]:focus {
+  outline: none;
+  box-shadow: inset 0 -3px 0 0 #a683e3;
+}
+
+::placeholder {
+  color: grey;
+  opacity: 1;
+}
+
+footer {
+  background-color:gray;
+  color: whitesmoke;
+  width: 100%;
+  height: 120px;
+  margin-top: 160px;
+  position: fixed;
+  bottom: 0px;  text-align: center;
+}
+
+li{
+  padding-bottom: 5px;
+  font-size: 20px;
+}
+
+a{
+  color: whitesmoke;
+  margin-left: 3px;
+}

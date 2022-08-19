@@ -1,0 +1,50 @@
+<html>
+
+<head>
+    <title>to do list</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+
+<body>
+    <h1>
+        <%= key %>
+    </h1>
+
+    <div class="box">
+
+        <% key2.forEach(function(item){ %>
+            <form action="/delete" method="post">
+                <div class="item">
+                    <input type="checkbox" name="checkbox" value="<%=item._id%>" Onchange="this.form.submit()">
+                    <p>
+                        <%= item.name %>
+                    </p>
+                </div>
+            </form>
+            <% }) %>
+    </div>
+    <form action="/" method="post">
+        <input name="input" placeholder="Next thing to do" type="text">
+        <button type="submit" name="button">+</button>
+    </form>
+    </div>
+
+</body>
+
+<footer>
+    <ul>
+        <li><img src="https://clipartcraft.com/images/logo-instagram-1080p.png" height="30px" width="30px"
+                alt="Instagram Emojis" class="class" style="    position: relative;
+            top: 10px;"> <a href="https://www.instagram.com/rajat_rawat._/" target="_blank"> Rajat_Rawat._</a></li>
+        <li><img src="https://www.nicepng.com/png/detail/1006-10065363_facebook-twitter-google-plus-linkedin-whatsapp-linked-in.png"
+                height="30px" width="30px" alt="linkedin Emojis" class="class" style="    position: relative;
+        top: 10px;"><a href="https://www.linkedin.com/in/rajat-singh-973703123/" target="_blank"> Rajat Singh</a></li>
+        <li><img src="https://pngimg.com/uploads/github/github_PNG80.png"  height="30px" width="30px"
+                alt="Instagram Emojis" class="class" style="    position: relative;
+        top: 10px; border:solid whitesmoke;"> <a href="https://github.com/rajat4885" target="_blank"> Rajat4885</a>💻</li>
+    </ul>
+</footer>
+
+</html>
