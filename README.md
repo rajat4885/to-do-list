@@ -1,6 +1,6 @@
 # todolist😁
 
-⭐Todo list is a small, simple and beautiful app made with help of HTML,CSS,JAVASCRIPT,EJS,NODE.JS and mongdb Atlas and deployed it with Heroku.
+⭐Todo list is a small, simple and beautiful app made with help of HTML,CSS,JAVASCRIPT,EJS,NODE.JS and mongdb Atlas.
 
 ⭐It can help you keep track of your daily plans. If you happen to have the habit of writing a mission plan, then it must be perfect for you.
 
